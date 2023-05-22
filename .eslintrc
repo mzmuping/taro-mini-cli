@@ -1,0 +1,10 @@
+{
+  "extends": ["taro/react"],
+  "rules": {
+    "@typescript-eslint/no-var-require": 0,
+    // "allow-primitive-modules": "true",
+    // "allowRequire": true,
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

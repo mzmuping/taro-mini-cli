@@ -1,0 +1,109 @@
+Arguments: 
+  D:\nvm\nodejs\node.exe D:\nvm\node_global\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\admin\AppData\Local\Yarn\bin;D:\mysql-5.7.35-winx64\bin;D:\nvm\node_global;D:\nvm\node_global\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\ffmpeg-n4.4.1-2-gcc33e73618-win64-gpl-4.4\bin;D:\nginx\nginx-1.22.0;D:\;C:\Users\admin\AppData\Local\pnpm;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\nvm;D:\nvm\nodejs;D:\nvm\npm;D:\nvm\node_global;D:\nvm\node_global\bin;D:\ffmpeg-n4.4.1-2-gcc33e73618-win64-gpl-4.4\bin;D:\Fiddler;D:\nginx\nginx-1.22.0;D:\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\nvm\yarn\cache\v6\npm-string-prototype-trimend-1.0.6-c4a27fa026d979d79c04f17397f250a462944533-integrity\node_modules\string.prototype.trimend\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at D:\nvm\node_global\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\nvm\node_global\node_modules\yarn\lib\cli.js:310:30)
+      at D:\nvm\node_global\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mytaroApp",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "templateInfo": {
+      "name": "default",
+      "typescript": true,
+      "css": "less"
+    },
+    "scripts": {
+      "build:weapp": "taro build --type weapp",
+      "build:swan": "taro build --type swan",
+      "build:alipay": "taro build --type alipay",
+      "build:tt": "taro build --type tt",
+      "build:h5": "taro build --type h5",
+      "build:rn": "taro build --type rn",
+      "build:qq": "taro build --type qq",
+      "build:jd": "taro build --type jd",
+      "build:quickapp": "taro build --type quickapp",
+      "dev:weapp": "npm run build:weapp -- --watch",
+      "dev:swan": "npm run build:swan -- --watch",
+      "dev:alipay": "npm run build:alipay -- --watch",
+      "dev:tt": "npm run build:tt -- --watch",
+      "dev:h5": "npm run build:h5 -- --watch",
+      "dev:rn": "npm run build:rn -- --watch",
+      "dev:qq": "npm run build:qq -- --watch",
+      "dev:jd": "npm run build:jd -- --watch",
+      "dev:quickapp": "npm run build:quickapp -- --watch",
+      "iconfont": "npx iconfont-taro --config iconfont.json"
+    },
+    "browserslist": [
+      "last 3 versions",
+      "Android >= 4.1",
+      "ios >= 8"
+    ],
+    "author": "",
+    "dependencies": {
+      "@babel/runtime": "^7.7.7",
+      "@tarojs/components": "3.5.6",
+      "@tarojs/helper": "3.5.6",
+      "@tarojs/plugin-framework-react": "3.5.6",
+      "@tarojs/plugin-platform-alipay": "3.5.6",
+      "@tarojs/plugin-platform-jd": "3.5.6",
+      "@tarojs/plugin-platform-qq": "3.5.6",
+      "@tarojs/plugin-platform-swan": "3.5.6",
+      "@tarojs/plugin-platform-tt": "3.5.6",
+      "@tarojs/plugin-platform-weapp": "3.5.6",
+      "@tarojs/react": "3.5.6",
+      "@tarojs/router": "3.5.6",
+      "@tarojs/runtime": "3.5.6",
+      "@tarojs/shared": "3.5.6",
+      "@tarojs/taro": "3.5.6",
+      "@tarojs/taro-h5": "3.5.6",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.0",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+      "@tarojs/cli": "3.5.6",
+      "@tarojs/webpack5-runner": "3.5.6",
+      "@types/react": "^18.0.0",
+      "@types/webpack-env": "^1.13.6",
+      "@typescript-eslint/eslint-plugin": "^5.20.0",
+      "@typescript-eslint/parser": "^5.20.0",
+      "babel-preset-taro": "3.5.6",
+      "eslint": "^8.12.0",
+      "eslint-config-taro": "3.5.6",
+      "eslint-plugin-import": "^2.12.0",
+      "eslint-plugin-react": "^7.8.2",
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "react": "^18.2.0",
+      "react-refresh": "^0.11.0",
+      "stylelint": "^14.4.0",
+      "taro-iconfont-cli": "^3.3.0",
+      "typescript": "^4.1.0",
+      "webpack": "5.69.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
